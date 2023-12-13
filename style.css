@@ -1,0 +1,38 @@
+body, html {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+#input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+table {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #87CEEB;
+}
